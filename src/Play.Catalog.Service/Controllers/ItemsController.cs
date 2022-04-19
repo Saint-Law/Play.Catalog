@@ -34,7 +34,7 @@ namespace Play.Catalog.Service.Controllers
             {
                 return NotFound();
             }
-
+ 
             return item.AsDto();
         }
 
